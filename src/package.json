@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/minecraft_raspberry_jam_mod_websocket.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "t.kawamorita <takayoshi.kawamorita@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.0",
+    "gulp-uglify": "^1.4.1",
+    "gulp-util": "^3.0.6",
+    "gulp-webserver": "^0.9.1",
+    "ngrok": "^2.1.6",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
