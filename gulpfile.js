@@ -20,7 +20,7 @@ gulp.task('webserver', function() {
       return;
     }
 
-    var scriptURL = url + '/minecraft_raspberry_jam_mod_websocket.js';
+    var scriptURL = url + '/src/minecraft_raspberry_jam_mod_websocket.js';
     gutil.log('script URL via ngrok is:', gutil.colors.cyan(scriptURL));
     gulp.src('./')
       .pipe(webserver({
